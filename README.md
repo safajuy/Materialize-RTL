@@ -1,7 +1,9 @@
 MaterializeCSS RTL Framwork
 ===
 
- One last thing to note is that you have to import jQuery before importing materialize.js!
+ * import jQuery before importing materialize.js!
+ * import Google Font Icons 
+ * import materialize-rtl.min.css or materialize-rtl.css from CSS Folder
  
  ```HTML
  <!DOCTYPE html>
@@ -10,7 +12,7 @@ MaterializeCSS RTL Framwork
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
-      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="css/materialize-rtl.css"  media="screen,projection"/>
 
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
