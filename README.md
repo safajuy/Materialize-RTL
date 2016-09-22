@@ -1,10 +1,15 @@
 MaterializeCSS RTL Framwork
 ===
 
- * import jQuery before importing materialize.js!
+ 
  * import Google Font Icons 
  * import materialize-rtl.min.css or materialize-rtl.css from CSS Folder
+ * for RTL Direction in all pages, insert this code in your css. (DO NOT insert in framework CSS)
+ ```CSS
+ body{direction:rtl}
+ ```
  
+ * import jQuery before importing materialize.js!
  ```HTML
  <!DOCTYPE html>
   <html>
